@@ -6,23 +6,21 @@ const elements = document.querySelectorAll('li');
 let fontSize = 16;
 
 btn.addEventListener('click', () => {
-  
- 
   elements.forEach(element => {
     element.style.display = 'block';
   });
 });
 
 increaseBtn.addEventListener('click', () => {
-    fontSize += 1;
-    elements.forEach(element=> {
-        element.style.fontSize = fontSize + 'px';
-    })
+  fontSize += 1;
+  elements.forEach(element => {
+    element.style.fontSize = fontSize + 'px';
+  });
 });
 
-decreaseBtn.addEventListener('click', ()=>{
-    fontSize -= 1;
-    elements.forEach(element => {
-        element.style.fontSize = fontSize + 'px';
-    })
-})
+decreaseBtn.addEventListener('click', () => {
+  fontSize -= 1;
+  elements.forEach(element => {
+    element.style.fontSize = fontSize + 'px';
+  });
+});

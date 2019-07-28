@@ -1,9 +1,11 @@
-# JS-task-1
+# Task with JavaScript
 
-Create three buttons (see elements, increase fontsize, decrease fontsize):
-* button see element, display ten elements li in ul;
-* button increase fontsize, increase list elements fontsize by 1px
-* button decrease fontsize, decrease list elements fontsize by 1px
+In this task I created three buttons:
 
-## See solution
+* button, which add ten element list
+* button, which increase fontsize by 1px
+* button, which decrese fontsize by 1px.
+
+I  used forEach function.
+
 https://annbag.github.io/JS-task-1/
